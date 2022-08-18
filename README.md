@@ -85,9 +85,9 @@ LibrosaとEssentiaに載っている項目が多いため説明は省略
 
 <https://www.audiocommons.org/2018/07/15/audio-commons-audio-extractor.html#:~:text=As%20described%20in-,deliverable%20D5.2,-%2C%20a%20number%20of>
 
-- brigtness : 音の明るさを計算. 明るい音とは、明瞭かつ高温成分を含む音を表す
+- brigtness : 音の明るさを計算. スペクトルセントロイドとスペクトルエネルギー比で算出
 - hardness : 硬さを計算.硬いものや大きな力を使って作られたという音を表す(?)
-- depth : 音の深さを計算.深みのある音とは、奥行きのある様な音を表す?
+- depth : 音の深さを計算.低周波のスペクトル重心や低周波エネルギーの割合、低周波ロールオンを分析している
 - roughness : 音の質感が不均一であったり不規則である音を表す
 - boominess : 音の大きさ、奥行き、響きが感じられる音を表す
 - warmth 温かみのある音を表す(おそらく倍音成分の出方を見ているか)
