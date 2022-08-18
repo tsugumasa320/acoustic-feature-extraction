@@ -1,8 +1,7 @@
 # [survey]acoustic-feature-extraction-using-spectrum
 
-## Python Library
 
-### Librosa
+## Librosa
 <https://librosa.org/doc/latest/feature.html>
 
 - chroma_stft : 波形かスペクトログラムからクロマグラムを作成する（クロマグラムは、全周波数帯域のパワーを12音階に落とし込み、ある区間の時間における音の成分を可視化したもの）
@@ -18,9 +17,9 @@
 が高い(1に近い)ほどホワイトノイズに近いことを示す.
 - spectral_rolloff : ロールオフ周波数(減衰傾度)の計算. 
 
-### essentia
+## essentia
 
-#### Low-level
+### Low-level
 <https://essentia.upf.edu/streaming_extractor_music.html>
 
 - loudness_ebu128 : ERU R128?に基づいたラウドネス算出
@@ -54,8 +53,8 @@
 - spectral_complexity : スペクトル複雑度を計算(入力スペクトルのピークが多い=複雑らしい)
 - spectral_contrast_coeffs,spectral_contrast_valleys : スペクトル・コントラスト特徴量
 
-### opensmile
-#### Audio features (low-level)
+## opensmile
+### Audio features (low-level)
 LibrosaとEssentiaに載っている項目が多いため説明は省略
 
 - Frame Energy
@@ -78,3 +77,19 @@ LibrosaとEssentiaに載っている項目が多いため説明は省略
 - CHROMA (octave-warped semitone spectra) and CENS features (energy-normalised and smoothed CHROMA)
 - CHROMA-derived features for Chord and Key recognition
 - F0 Harmonics ratios
+
+## 
+### TIMBRE MODELS
+
+<https://www.audiocommons.org/2018/07/15/audio-commons-audio-extractor.html>
+
+<https://www.audiocommons.org/2018/07/15/audio-commons-audio-extractor.html#:~:text=As%20described%20in-,deliverable%20D5.2,-%2C%20a%20number%20of>
+
+- brigtness : 音の明るさを計算. 明るい音とは、明瞭かつ高温成分を含む音を表す
+- hardness : 硬さを計算.硬いものや大きな力を使って作られたという音を表す(?)
+- depth : 音の深さを計算.深みのある音とは、奥行きのある様な音を表す?
+- roughness : 音の質感が不均一であったり不規則である音を表す
+- boominess : 音の大きさ、奥行き、響きが感じられる音を表す
+- warmth 温かみのある音を表す(おそらく倍音成分の出方を見ているか)
+- sharpness : 音の鋭さを表す.(これも倍音成分?)
+- reverb : 信号にリバーブがかかっているかどうか判定
