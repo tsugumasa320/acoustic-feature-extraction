@@ -78,6 +78,12 @@ LibrosaとEssentiaに載っている項目が多いため説明は省略
 - CHROMA-derived features for Chord and Key recognition
 - F0 Harmonics ratios
 
+## Pypl
+<https://brookemosby.github.io/Signal_Analysis/Signal_Analysis.features.html>
+- get_F0
+- get_HNR
+- get_Jitter
+
 ## 
 ### TIMBRE MODELS
 
