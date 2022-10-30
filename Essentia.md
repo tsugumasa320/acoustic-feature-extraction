@@ -93,6 +93,9 @@
 - ZeroCrossingRate: ゼロ交差率の計算.Noisyさを表す指標としても使えそう. y
 
 ## Spectral(次はここから)
+- BFCC: パーカッシブさを計算できるとある t
+- BarkBands; 
+- ERBBands
 
 ## Rhythm(自分の研究には関係ないので未記載)
 
