@@ -1,8 +1,6 @@
 # Essentiaのオブジェクトメモ
 <https://essentia.upf.edu/algorithms_reference.html>
 
-
-
 ## Envelope/SFX (Envelopeなので湯谷の研究には関係なさそう)
 - AfterMaxToBeforeMaxEnergyRatio
 - DerivativeSFX： 急なリリースフェーズを持つ衝撃音と非衝撃音を区別する. t
@@ -167,12 +165,29 @@
 
 ## Extractors
 
+- BarkExtractor
+- Extractor
+- FreesoundExtractor
+- LowLevelSpectralEqloudExtractor
+- LowLevelSpectralExtractor
+- MusicExtractor
+
 ## Synthesis
 
 ## Pitch
 
 ## Transformations
 
+- PCA
 ## Segmentation
 
+- SBic: オーディオのセグメンテーション
 ## Machine Learning
+
+- TensorflowPredict2D
+- TensorflowPredict
+- TensorflowPredictCREPE
+- TensorflowPredictEffnetDiscogs
+- TensorflowPredictMusiCNN
+- TensorflowPredictTempoCNN
+- TensorflowPredictVGGish
