@@ -96,12 +96,62 @@
 - BFCC: パーカッシブさを計算できるとある t
 - BarkBands; 
 - ERBBands
+- EnergyBand
+- EnergyBandRatio
+- FlatnessDB: DBスケールの配列の平坦度 y
+- Flux: スペクトルフラックス.音の立ち上がりの検出
+- FrequencyBands
+- GFCC
+- HFC
+- LogSpectrum
+- MFCC
+- MaxMagFreq: スペクトル内で最大の振幅を持つ周波数を計算
+- MelBands
+- Panning
+- PowerSpectrum
+- RollOff
+- SpectralCentroidTime: Time領域でのスペクトル重心の計算
+- SpectralComplexity: スペクトル複雑度.Noisyの指標に使えるか
+- SpectralContrast: 
+- SpectralPeaks
+- SpectralWhitening
+- Spectrum
+- SpectrumToCent
+- StrongPeak
+- TensorflowInputMusiCNN
+- TensorflowInputTempoCNN
+- TensorflowInputVGGish
+- TriangularBands
+- TriangularBarkBands
 
 ## Rhythm(自分の研究には関係ないので未記載)
 
 ## Math
+- CartesianToPolar
+- Magnitude
+- PolarToCartesian
 
 ## Statistics
+- CentralMoments
+- Centroid: スペクトル重心.明るさの指標に使われる
+- Crest: 配列の最大値と算術平均の間の比率の計算
+- Decrease: 
+- DistributionShape: 分散、歪度、および尖度を計算 t
+- Energy: 配列のエネルギー(信号の2乗)を計算
+- Entropy: 配列のシャノン・エントロピーを計算. 自動音声認識における有声・無声の判定に利用
+- Flatness: 幾何平均と算術平均の比として定義される，配列の平坦度を計算 t
+- GeometricMean: 正の値の配列の幾何平均を計算
+- Histogram
+- InstantPower: 配列の瞬時累乗を計算
+- Mean
+- Median
+- PoolAggregator: Poolに対して統計的な集約を行い、集約結果を新しい Pool に配置
+- PowerMean
+- RMS
+- RawMoments
+- SingleGaussian
+- Variance
+- Viterbi
 
 ## Tonal
 
