@@ -207,7 +207,16 @@
 
 ## Loudness/dynamics
 
-- DynamicComplexity(次ここから)
+- DynamicComplexity
+- Intensity: 入力された音声信号をリラックス（-1）、モデレート（0）、アグレッシブ（1）のいずれかに分類. y
+- Larm
+- Leq
+- LevelExtractor
+- Loudness
+- LoudnessEBUR128
+- LoudnessEBUR128Filter
+- LoudnessVickers
+- ReplayGain
 
 ## Extractors
 
@@ -220,13 +229,46 @@
 
 ## Synthesis
 
+- HarmonicMask
+- HarmonicModelAnal
+- HprModelAnal
+- HpsModelAnal
+- ResampleFFT
+- SineModelAnal
+- SineModelSynth
+- SineSubtraction
+- SprModelAnal
+- SprModelSynth
+- SpsModelAnal
+- SpsModelSynth
+- StochasticModelAnal
+- StochasticModelSynth
+
 ## Pitch
 
-## Transformations
+- MultiPitchKlapuri
+- MultiPitchMelodia
+- PitchCREPE
+- PitchContourSegmentation
+- PitchContours
+- PitchContoursMelody
+- PitchContoursMonoMelody
+- PitchContoursMultiMelody
+- PitchFilter
+- PitchMelodia
+- PitchSalienceFunction
+- PitchSalienceFunctionPeaks
+- PitchYin
+- PitchYinFFT
+- PitchYinProbabilistic
+- PitchYinProbabilities
+- PitchYinProbabilitiesHMM
+- PredominantPitchMelodia
+- Vibrato
 
+## Transformations
 - PCA
 ## Segmentation
-
 - SBic: オーディオのセグメンテーション
 ## Machine Learning
 
