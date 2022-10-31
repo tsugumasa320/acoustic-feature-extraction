@@ -18,7 +18,10 @@
 
 ## essentia
 
+#### [別途こちらに整理](https://github.com/tsugumasa320/acoustic-feature-extraction/blob/main/Essentia.md)
+
 ### Low-level
+
 <https://essentia.upf.edu/streaming_extractor_music.html>
 
 - loudness_ebu128 : ERU R128?に基づいたラウドネス算出
