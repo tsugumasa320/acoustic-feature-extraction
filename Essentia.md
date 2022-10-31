@@ -153,15 +153,61 @@
 
 ## Tonal
 
+- ChordsDescriptors
+- ChordsDetection
+- ChordsDetectionBeats
+- Chromagram
+- Dissonance: スペクトラムピークから不協和度を算出する
+- HPCP
+- HarmonicPeaks
+- HighResolutionFeatures
+- Inharmonicity: 非調和度.基本周波数の整数倍から離れる度合い.https://en.wikipedia.org/wiki/Inharmonicity
+- Key
+- KeyExtractor
+- NNLSChroma
+- OddToEvenHarmonicEnergyRatio
+- PitchSalience
+- SpectrumCQ
+- TonalExtractor
+- TonicIndianArtMusic
+- Tristimulus
+- TuningFrequency: チューニング周波数を推定
+- TuningFrequencyExtractor
+
 ## Music Similarity
+
+- ChromaCrossSimilarity
+- CoverSongSimilarity
+- CrossSimilarityMatrix
 
 ## Fingerprinting
 
+- Chromaprinter
+
 ## Audio Problems
+
+- ClickDetector
+- DiscontinuityDetector
+- FalseStereoDetector
+- GapsDetector: オーディオのギャップ検出.Lossに使えるか?
+- HumDetector
+- NoiseBurstDetector
+- SNR: signal noise ratio. y
+- SaturationDetector
+- StartStopCut
+- TruePeakDetector
 
 ## Duration/silence
 
+- Duration
+- EffectiveDuration
+- FadeDetection
+- SilenceRate
+- StartStopSilence
+
 ## Loudness/dynamics
+
+- DynamicComplexity(次ここから)
 
 ## Extractors
 
